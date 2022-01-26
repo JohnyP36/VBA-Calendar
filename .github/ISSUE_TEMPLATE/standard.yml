@@ -14,7 +14,7 @@ body:
       options:
         - label: I performed a cursory search of the issue tracker to avoid opening a duplicate issue
           required: true
-        - label: This is **NOT** a question `-- use [this template](https://github.com/JohnyP36/VBA-Calendar/issues/new?assignees=&labels=question&template=questions.yml) for questions`
+        - label: This is **NOT** a question `-- use` [`this template`](https://github.com/JohnyP36/VBA-Calendar/issues/new?assignees=&labels=question&template=questions.yml) `for questions`
           required: true
         - label: I've read the [Code of Conduct](https://github.com/JohnyP36/VBA-Calendar/blob/main/.github/CODE_OF_CONDUCT.md) and the [Contributing Guidelines](https://github.com/JohnyP36/VBA-Calendar/blob/main/.github/CONTRIBUTING.md)
           required: true

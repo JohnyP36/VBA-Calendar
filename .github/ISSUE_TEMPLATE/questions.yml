@@ -1,0 +1,52 @@
+name: Questions
+description: Template for asking questions about my repro and other kind of help support
+labels: question
+body:
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      options:
+        - label: I performed a cursory search of the issue tracker to avoid opening a duplicate issue
+          required: true
+        - label: This is really a question -- otherwise your issue will be closed as `invalid`
+          required: true
+
+  - type: textarea
+    attributes:
+      label: Your Question(s)
+      description: |
+        Be as clear as possible. Nobody can read your mind.
+      placeholder: |
+        Put here your question(s)
+    validations:
+      required: true
+      
+  - type: textarea
+    attributes:
+      label: Screenshot(s)
+      description: |
+        Screenshot(s) for difficult to describe visual issues are **mandatory**. 
+        Post **links** instead of inline images for screenshots containing **Adult material**.
+      value: | 
+        <details>
+        <summary>Screenshot 1</summary>
+        
+        <!-- drag-and-drop screenshot here -->
+        
+        </details>
+    validations:
+      required: false
+
+  - type: input
+    attributes: 
+      label: Office version
+      placeholder: e.g. Office 2019, version 2112 (build 14729.20260) for Students and Home use
+    validations:
+      required: true
+    
+  - type: input
+    attributes: 
+      label: Operating System & Version
+      placeholder: e.g. Windows 10, 21H2
+    validations:
+      required: true 

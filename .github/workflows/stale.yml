@@ -1,8 +1,7 @@
 name: 'Close Stale Issues'
 on:
   schedule:
-    - cron: '00 12 * * 1'
-    - cron: '59 23 * * 4'
+    - cron: '15 15 * * 6'
 
 jobs:
   stale:
@@ -11,7 +10,7 @@ jobs:
       - uses: actions/stale@v3.0.18
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          days-before-issue-stale: 21
+          days-before-issue-stale: 28
           stale-issue-message: | 
             "This issue has been automatically marked as `stale` because it has not had recent activity. 
             It will be closed if no further activity occurs. Thank you for your contributions."

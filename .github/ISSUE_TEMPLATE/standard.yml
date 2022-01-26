@@ -8,7 +8,7 @@ body:
         You're free to counterargue (to a certain point) if you disagree with the decision. 
         To avoid being banned, don't constantly re-open or create new (related) issue reports
 
-- type: checkboxes
+  - type: checkboxes
     attributes:
       label: Prerequisites
       options:
@@ -21,7 +21,7 @@ body:
         - label: This issue occured after I changed your code
           required: false
 
-- type: checkboxes
+  - type: checkboxes
     id: name2
     attributes:
       label: I tried to reproduce the issue when...

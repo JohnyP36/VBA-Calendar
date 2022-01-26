@@ -28,7 +28,7 @@ body:
       options:
         - label: I put the code in a clean, new Excel files
           required: true
-        - label: other VBA *(other than the code in this repo)* on the same worksheet are disabled  -- `*This is to ensure there are no issues or conflicts with other code*`
+        - label: other VBA *(other than the code in this repo)* on the same worksheet are disabled  -- *`This is to ensure there are no issues or conflicts with other code`*
           required: true
    
   - type: input

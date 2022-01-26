@@ -8,7 +8,7 @@ body:
       options:
         - label: I performed a cursory search of the issue tracker to avoid opening a duplicate issue
           required: true
-        - label: This is really a question -- otherwise your issue will be closed as `invalid`
+        - label: This is really a question `-- otherwise your issue will be closed as invalid`
           required: true
 
   - type: textarea

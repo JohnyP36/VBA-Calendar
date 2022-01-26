@@ -346,7 +346,6 @@ Sub VoegWeeknummersToe()
         .TintAndShade = 0
     End With
     Range("A3,A5,A7,A9,A11,A13").Select
-    Range("A13").Activate
     With Selection.Interior
         .PatternColorIndex = xlAutomatic
         .Color = 6737151
@@ -372,13 +371,10 @@ Sub SplitDagenInTweeën()
     Rows("19:19").Select
     Selection.Insert Shift:=xlDown, CopyOrigin:=xlFormatFromRightOrBelow
     Range("19:20,16:17,13:14,10:11").Select
-    Range("A11").Activate
     ActiveWindow.SmallScroll Down:=-9
     Range("19:20,16:17,13:14,10:11,7:8,4:5").Select
-    Range("A5").Activate
     Selection.RowHeight = 32.5
     Range("B4:H5,B7:H8,B10:H11,B13:H14,B16:H17,B19:H20").Select
-    Range("B19").Activate
     Selection.Borders(xlDiagonalDown).LineStyle = xlNone
     Selection.Borders(xlDiagonalUp).LineStyle = xlNone
     With Selection.Borders(xlEdgeLeft)
@@ -420,7 +416,6 @@ Sub SplitDagenInTweeën()
     
     'Maakt tekstkleur zwart
     Range("B4:H5,B7:H8,B10:H11,B13:H14,B16:H17,B19:H20").Select
-    Range("B19").Activate
     With Selection.Font
         .ColorIndex = 1
         .TintAndShade = 0

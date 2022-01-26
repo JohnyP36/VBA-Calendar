@@ -207,7 +207,7 @@ MyErrorTrap:
        MyInput = InputBox("Geeft de maand en het jaar op voor de kalender")
        If MyInput = "" Then Exit Sub
        Resume
-   End Sub
+End Sub
 
 Sub VoegWeeknummersToe()
     Columns("A:A").Select
@@ -248,7 +248,6 @@ Sub VoegWeeknummersToe()
     Range("A13").Select
     ActiveCell.FormulaR1C1 = "=ISOWEEKNUM(RC[10]+1)"
     Range("A13,A11,A9,A7,A5,A3").Select
-    Range("A3").Activate
     Selection.Borders(xlDiagonalDown).LineStyle = xlNone
     Selection.Borders(xlDiagonalUp).LineStyle = xlNone
     Selection.Borders(xlEdgeLeft).LineStyle = xlNone
@@ -268,7 +267,6 @@ Sub VoegWeeknummersToe()
     Selection.Borders(xlInsideVertical).LineStyle = xlNone
     Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
     Range("A4,A6,A8,A10,A12,A14").Select
-    Range("A14").Activate
     Selection.Borders(xlDiagonalDown).LineStyle = xlNone
     Selection.Borders(xlDiagonalUp).LineStyle = xlNone
     Selection.Borders(xlEdgeLeft).LineStyle = xlNone

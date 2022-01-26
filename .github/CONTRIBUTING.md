@@ -3,8 +3,8 @@
 ### Issues 
 
 **Allways** use the issue templates: 
- - use [this template](https://github.com/JohnyP36/VBA-Calendar/issues)
- - **Do you have a question? Follow [this template](https://github.com/JohnyP36/VBA-Calendar/issues)** </br>
+ - use [this template](https://github.com/JohnyP36/VBA-Calendar/issues/new?assignees=&labels=&template=standard.yml)
+ - **Do you have a question? Follow [this template](https://github.com/JohnyP36/VBA-Calendar/issues/new?assignees=&labels=question&template=questions.yml)** </br>
 
 If the issue template isn't followed your issue will be labeled as `invalid` and be closed
 

@@ -180,7 +180,7 @@ Sub CalendarMaker()
        Next
        
        Call VoegWeeknummersToe
-       Call SplitDagenInTweeën
+       Call SplitDagenInTweeÃ«n
        
        If Range("B18").Value = "" Then Range("B18").Offset(0, 0) _
           .Resize(3, 8).EntireRow.Delete
@@ -355,7 +355,7 @@ Sub VoegWeeknummersToe()
     End With
 End Sub
 
-Sub SplitDagenInTweeën()
+Sub SplitDagenInTweeÃ«n()
 ' Split cells under each day in half (add an extra row)
     Rows("4:4").Select
     Selection.Insert Shift:=xlDown, CopyOrigin:=xlFormatFromRightOrBelow

@@ -18,7 +18,7 @@ body:
           required: true
         - label: I've read the [Code of Conduct](https://github.com/JohnyP36/VBA-Calendar/blob/main/.github/CODE_OF_CONDUCT.md) and the [Contributing Guidelines](https://github.com/JohnyP36/VBA-Calendar/blob/main/.github/CONTRIBUTING.md)
           required: true
-        - label: This issue occured after I changed your code
+        - label: This issue occured after I changed the code of this repo
           required: false
 
   - type: checkboxes

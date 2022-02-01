@@ -17,7 +17,7 @@ Nogeens:
         GoTo Nogeens
         If Recent > Date + 7 Then
             MsgBox "Geen datum kunnen vinden in kolom B binnen de komende zeven dagen."
-            ActiveCell.Offset(0, 0).Range("A1").Select
+'           ActiveCell.Offset(0, 0).Range("A1").Select
             'of -> Range("B1000").End(xlUp).Select
                 'Selecteert de laatste cel in kolom B (geldt tot B1000)
             End

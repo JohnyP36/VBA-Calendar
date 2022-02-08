@@ -8,6 +8,7 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = True
 Sub SelecteerDatumVandaag()
+Application.ScreenUpdating = False
 Dim Vandaag As Range
     Recent = Date
 Nogeens:

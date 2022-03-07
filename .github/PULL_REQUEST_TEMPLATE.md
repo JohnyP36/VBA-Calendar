@@ -15,7 +15,7 @@
 - [ ] I tried to reproduce the issue when...
     - [ ] I put the code in a clean, new Excel files
     - [ ] other VBA *(other than the code in this repo)* on the same worksheet are disabled  <!-- This is to ensure there are no issues or conflicts with other code -->
-- [ ] This issues occured after I changed the code of this repo
+- [ ] These issues occured after I changed the code of this repo
 
 ### Describe the issue
 <!-- [Be as clear as possible: nobody can read mind, and nobody is looking at your issue over your shoulder.] --> 

@@ -44,7 +44,18 @@ body:
       placeholder: e.g. Windows 10, 21H2
     validations:
       required: true 
-      
+
+  - type: textarea
+    attributes:
+      label: Description of the issue/bug
+      description: |
+        Describe the issue you are having or the bug you have found.
+      placeholder: | 
+        Be as clear as possible. Nobody can read your mind. 
+        Also give steps how to reproduce the issue or bug.
+    validations:
+      required: false
+
   - type: textarea
     attributes:
       label: Screenshot(s)

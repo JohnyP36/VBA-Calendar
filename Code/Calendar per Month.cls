@@ -16,7 +16,7 @@ Sub CalendarMaker()
        ' Set up error trapping.
        On Error GoTo MyErrorTrap
        ' Clear area a1:g14 including any previous calendar.
-       Range("a1:l21").Clear
+       Range("a1:l21").Delete
        ' Use InputBox to get desired month and year and set variable MyInput.
        MyInput = InputBox("Geeft de maand en het jaar voor de kalender op. . . ")
        ' Allow user to end macro with Cancel in InputBox.

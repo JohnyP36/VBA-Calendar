@@ -2,7 +2,7 @@
 <a align="center" href="https://github.com/JohnyP36/VBA-Calendar/commits/master"><img src="https://img.shields.io/github/commit-activity/m/JohnyP36/VBA-Calendar?label=Commits&color=succes&style=plastic" /></a>
 <a align="center" href="https://github.com/JohnyP36/VBA-Calendar/issues"><img src="https://img.shields.io/github/issues/JohnyP36/VBA-Calendar?label=Issues&color=red&style=plastic" /></a>
 <a align="center" href="https://github.com/JohnyP36/VBA-Calendar/issues"><img src="https://img.shields.io/github/issues-closed/JohnyP36/VBA-Calendar?color=yellowgreen&label=Issues&style=plastic" /></a>
-<a align="center" href="https://github.com/JohnyP36/VBA-Calendar/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg?label=License&color=lightgrey&style=social" /></a>
+<a align="center" href="https://github.com/JohnyP36/VBA-Calendar/blob/main/LICENSE"><img src="https://img.shields.io/github/license/JohnyP36/VBA-Calendar?label=License&color=lightgrey&style=social" /></a>
 </p>
 
 ***
